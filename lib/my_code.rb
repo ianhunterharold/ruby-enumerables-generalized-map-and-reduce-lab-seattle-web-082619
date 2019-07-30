@@ -9,6 +9,7 @@ def map(array)
 end #end for the method 
 
 
+<<<<<<< HEAD
 def reduce(source_array, starting_point=nil)
   i = 0
   if (starting_point) # meaning that by default it exits 
@@ -28,3 +29,17 @@ end
  
 #reduce accepts source array and starting point. if no sp, starts at first item in array 
 #if we do get a starting point, will be the beggging part 
+=======
+def reduce(source_array)
+  i = 0
+  while i < array.length do
+    yield(array[i])
+  i+=1  
+  end  #end of the method 
+  
+
+
+ 
+ 
+
+>>>>>>> 57cd59698687e9a4257974e812c7b140f09638c1
